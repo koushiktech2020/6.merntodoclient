@@ -17,7 +17,8 @@ TodoApp is a simple web application built with React for managing your daily tas
 - CSS3
 - JavaScript
 
-## Installation :  To run TodoApp locally, follow these steps:
+## Installation 
+  To run TodoApp locally, follow these steps:
  - Clone the repository:run command git clone https://github.com/yourusername/todoapp.git
  - Navigate to the project directory:cd todoapp
  - Install dependencies:npm install
