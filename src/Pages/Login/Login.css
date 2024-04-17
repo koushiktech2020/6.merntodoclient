@@ -1,0 +1,85 @@
+.login_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("../../Assets/tasklaptop.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login_form {
+  width: 42rem;
+  background: transparent;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  backdrop-filter: blur(2rem);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.login_form h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .login_form .login_input_box {
+  width: 100%;
+  height: 5rem;
+  background: salmon;
+  margin: 3rem 0;
+} */
+
+.login_form input {
+  width: 100%;
+  height: 5rem;
+  background: transparent;
+  outline: none;
+  border: 0.2rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: white;
+  padding: 2rem 4.5rem 2rem 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.login_form input::placeholder {
+  color: white;
+}
+
+.login_form .login_btn {
+  width: 100%;
+  height: 5rem;
+  background-color: #ffffff;
+  outline: none;
+  border: 0.5px solid transparent;
+  border-radius: 4rem;
+  font-size: 1.6rem;
+  color: #6855e0;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.login_form .login_btn:hover {
+  border: none;
+  background-color: #6855e0;
+  color: #ffffff;
+}
+
+.login_form .register_link {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.login_form .register_link a {
+  color: white;
+  font-weight: 600;
+}

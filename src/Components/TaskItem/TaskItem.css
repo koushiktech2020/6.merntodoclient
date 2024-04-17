@@ -1,0 +1,66 @@
+.todo_task_item {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  border: 0.1rem solid #acabab;
+  border-radius: 0.8rem;
+  padding: 2rem;
+  margin: 0 36.5rem 2rem;
+  box-shadow: #ecedee44 0px 1px 2px 0px, #dedfe024 0px 2px 6px 2px;
+}
+
+.task_mark {
+  outline: 0.1rem solid #e6e6e8;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.task_title {
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+  color: #525151;
+  font-weight: 500;
+}
+
+.task_check_title .complete {
+  text-decoration: line-through;
+}
+
+.action_btn .edit_btn,
+.action_btn .clr_btn,
+.action_btn .delete_btn {
+  font-size: 2rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.action_btn .edit_btn {
+  color: green;
+}
+
+.action_btn .delete_btn {
+  color: red;
+}
+
+.action_btn .clr_btn {
+  color: #0c49ff;
+}
+
+.task_check_title,
+.action_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (width<=768px) {
+  /* todo list css */
+
+  .todo_task_item {
+    margin: 0 auto 2rem;
+  }
+}

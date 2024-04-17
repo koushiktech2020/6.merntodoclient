@@ -1,0 +1,116 @@
+.todo_main_body {
+  /* background-color: #246387; */
+  background: url("../../Assets/laptop-windows-11.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.todo_container {
+  padding: 5rem;
+}
+
+.logout_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout_sec > h4 {
+  color: #e6eaec;
+  font-size: 2rem;
+}
+
+.logout_sec > h4 span {
+  color: #eb0436;
+}
+
+.logout_sec .logoutBtn {
+  padding: 1.2rem;
+  background-color: #f00592;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+  width: 12rem;
+  cursor: pointer;
+}
+
+.todo_title {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+  color: #e6eaec;
+  font-family: "Poppins", sans-serif;
+}
+
+.add_todo_input_sec {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.add_todo_input_sec .text_input {
+  padding: 1.2rem;
+  background-color: #ffffff;
+  color: #424242;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  width: 40rem;
+  box-shadow: #ecedee44 0px 1px 2px 0px, #dedfe024 0px 2px 6px 2px;
+}
+
+.add_todo_input_sec .text_input:focus {
+  outline: none;
+}
+
+.add_todo_input_sec .add_todo_btn {
+  padding: 1.2rem;
+  background-color: #003452;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+  width: 12rem;
+  cursor: pointer;
+}
+
+/* todo list css */
+.todo_list_sec {
+  height: 65vh;
+  overflow-y: scroll;
+  padding-top: 3rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #7d7d7d;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #e6e5e5;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+@media (width<=768px) {
+  /* todo list css */
+  .todo_list_sec {
+    height: 82vh;
+  }
+}
